@@ -1,0 +1,10 @@
+COPY mock_data FROM '/data/MOCK_DATA1.csv'  WITH (FORMAT csv, HEADER true, DELIMITER ',', QUOTE '"');
+COPY mock_data FROM '/data/MOCK_DATA2.csv'  WITH (FORMAT csv, HEADER true, DELIMITER ',', QUOTE '"');
+COPY mock_data FROM '/data/MOCK_DATA3.csv'  WITH (FORMAT csv, HEADER true, DELIMITER ',', QUOTE '"');
+COPY mock_data FROM '/data/MOCK_DATA4.csv'  WITH (FORMAT csv, HEADER true, DELIMITER ',', QUOTE '"');
+COPY mock_data FROM '/data/MOCK_DATA5.csv'  WITH (FORMAT csv, HEADER true, DELIMITER ',', QUOTE '"');
+COPY mock_data FROM '/data/MOCK_DATA6.csv'  WITH (FORMAT csv, HEADER true, DELIMITER ',', QUOTE '"');
+COPY mock_data FROM '/data/MOCK_DATA7.csv'  WITH (FORMAT csv, HEADER true, DELIMITER ',', QUOTE '"');
+COPY mock_data FROM '/data/MOCK_DATA8.csv'  WITH (FORMAT csv, HEADER true, DELIMITER ',', QUOTE '"');
+COPY mock_data FROM '/data/MOCK_DATA9.csv'  WITH (FORMAT csv, HEADER true, DELIMITER ',', QUOTE '"');
+COPY mock_data FROM '/data/MOCK_DATA10.csv' WITH (FORMAT csv, HEADER true, DELIMITER ',', QUOTE '"');
