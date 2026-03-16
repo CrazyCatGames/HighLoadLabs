@@ -186,4 +186,5 @@ JOIN dim_customer cu ON cu.email        = m.customer_email
 JOIN dim_seller   se ON se.email        = m.seller_email
 JOIN dim_product  pr ON pr.product_name = m.product_name
                     AND pr.price        = m.product_price
-JOIN dim_store    st ON st.store_name   = m.store_name;
+JOIN dim_store    st ON st.store_name   = m.store_name
+		    AND st.email        = m.store_email;
